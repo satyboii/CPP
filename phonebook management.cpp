@@ -1,5 +1,5 @@
 #include <iostream> 
-#include <vecttor> 
+#include <vector> 
 using namespace std;
 
 struct list {
@@ -10,8 +10,9 @@ struct list {
 
 int main() 
 {
-	vector <list> contact ;
+	std::vector<list> v;
 	list newList;
+	int value;
 	while(true){
 		cout<< "Enter 1 to add contacts"<< endl ;
 		cout<< "Enter 2 to search contacts"<< endl ;
